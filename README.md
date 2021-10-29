@@ -3,4 +3,4 @@
 Download and Extract to delete free time. Or just use the website. <br> <br>
 Do not worry, I will be updating this to be up to date with the current Cookie Clicker version. <br>
 <!-- Well guess what, 2.021 came out... what happened to 2.020??  -->
-Credits obviously go Orteil, visit the official website here: http://orteil.dashnet.org/cookieclicker/
+Credits obviously go Orteil, visit the official website here: http://orteil.dashnet.org/cookieclicker/ and to trixter this is not me copying it this is for the people who even have trixter cookie cliker blocked
