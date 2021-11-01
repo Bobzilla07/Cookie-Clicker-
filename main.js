@@ -5854,7 +5854,7 @@ Game.Launch=function()
 				if (Math.random()<0.75 || Game.cookiesEarned<10000)
 				{
 					if (Game.Objects['Grandma'].amount>0) list.push(choose([
-					'<q>Moist cookies.</q><sig>grandma</sig>',
+					'<q>Cookie juice</q><sig>grandma</sig>',
 					'<q>We\'re nice grandmas.</q><sig>grandma</sig>',
 					'<q>Indentured servitude.</q><sig>grandma</sig>',
 					'<q>Come give grandma a kiss.</q><sig>grandma</sig>',
@@ -5892,7 +5892,7 @@ Game.Launch=function()
 					]));
 					
 					if (Game.Objects['Farm'].amount>0) list.push(choose([
-					'News : cookie farms suspected of employing undeclared elderly workforce!',
+					'News : I knew it cookies could be farmed',
 					'News : cookie farms release harmful chocolate in our rivers, says scientist!',
 					'News : genetically-modified chocolate controversy strikes cookie farmers!',
 					'News : free-range farm cookies popular with today\'s hip youth, says specialist.',
@@ -5901,7 +5901,7 @@ Game.Launch=function()
 					
 					if (Game.Objects['Mine'].amount>0) list.push(choose([
 					'News : is our planet getting lighter? Experts examine the effects of intensive chocolate mining.',
-					'News : '+Math.floor(Math.random()*1000+2)+' miners trapped in collapsed chocolate mine!',
+					'News : '+Math.floor(Math.random()*1000+2)+' miners trapped in collapsed chocolate mine! Reporter says "mine colaspe too"',
 					'News : chocolate mines found to cause earthquakes and sinkholes!',
 					'News : chocolate mine goes awry, floods village in chocolate!',
 					'News : depths of chocolate mines found to house "peculiar, chocolaty beings"!'
