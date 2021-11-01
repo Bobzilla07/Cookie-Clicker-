@@ -5849,7 +5849,7 @@ Game.Launch=function()
 			
 			if (Game.TickerN%2==0 || Game.cookiesEarned>=10100000000)
 			{
-				var animals=['newts','penguins','scorpions','axolotls','puffins','porpoises','blowfish','horses','crayfish','slugs','humpback whales','nurse sharks','giant squids','polar bears','fruit bats','frogs','sea squirts','velvet worms','mole rats','paramecia','nematodes','tardigrades','giraffes','monkfish','wolfmen','goblins','hippies'];
+				var animals=['newts','Bobby','scorpions','axolotls','puffins','porpoises','blowfish','horses','crayfish','slugs','humpback whales','nurse sharks','giant squids','polar bears','fruit bats','frogs','sea squirts','velvet worms','mole rats','paramecia','nematodes','tardigrades','giraffes','monkfish','wolfmen','goblins','hippies'];
 				
 				if (Math.random()<0.75 || Game.cookiesEarned<10000)
 				{
@@ -6197,11 +6197,11 @@ Game.Launch=function()
 			
 			if (list.length==0)
 			{
-				if (Game.cookiesEarned<5) list.push('You feel like making cookies. But nobody wants to eat your cookies.');
-				else if (Game.cookiesEarned<50) list.push('Your first batch goes to the trash. The neighborhood raccoon barely touches it.');
-				else if (Game.cookiesEarned<100) list.push('Your family accepts to try some of your cookies.');
-				else if (Game.cookiesEarned<500) list.push('Your cookies are popular in the neighborhood.');
-				else if (Game.cookiesEarned<1000) list.push('People are starting to talk about your cookies.');
+				if (Game.cookiesEarned<5) list.push('The Bobzilla says "I wish '+Game.bakeryName+'\'s made cookies." ');
+				else if (Game.cookiesEarned<50) list.push('Thoose cookies are nasty try again.');
+				else if (Game.cookiesEarned<100) list.push('Your family thinks your cookies are bad but still eats them.');
+				else if (Game.cookiesEarned<500) list.push('Your cookies are somehow popular in the neighborhood.');
+				else if (Game.cookiesEarned<1000) list.push('People are starting to talk about your cookies. The Bob is suprised.');
 				else if (Game.cookiesEarned<5000) list.push('Your cookies are talked about for miles around.');
 				else if (Game.cookiesEarned<10000) list.push('Your cookies are renowned in the whole town!');
 				else if (Game.cookiesEarned<50000) list.push('Your cookies bring all the boys to the yard.');
@@ -6209,7 +6209,7 @@ Game.Launch=function()
 				else if (Game.cookiesEarned<500000) list.push('Your cookies are worth a lot of money.');
 				else if (Game.cookiesEarned<1000000) list.push('Your cookies sell very well in distant countries.');
 				else if (Game.cookiesEarned<5000000) list.push('People come from very far away to get a taste of your cookies.');
-				else if (Game.cookiesEarned<10000000) list.push('Kings and queens from all over the world are enjoying your cookies.');
+				else if (Game.cookiesEarned<10000000) list.push('The Zilla ships cookies to Texas.');
 				else if (Game.cookiesEarned<50000000) list.push('There are now museums dedicated to your cookies.');
 				else if (Game.cookiesEarned<100000000) list.push('A national day has been created in honor of your cookies.');
 				else if (Game.cookiesEarned<500000000) list.push('Your cookies have been named a part of the world wonders.');
